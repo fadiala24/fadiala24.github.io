@@ -113,10 +113,23 @@
                             <div id="profile" class="right">
                                 <img alt="profile-image" class="img-responsive" src="images/portoa.jpg">
                                 <div class="slant"></div>
-                                <div class="btn-floating btn-large add-btn">
-                                    <i class="material-icons">add</i></div>
+
+                                <!-- <div class="btn-floating btn-large add-btn">
+                                    <i class="material-icons">add</i>
+                                </div> -->
+
+                                 <!--VIDEO PLAY BUTTON-->
+                        <div id="button-holder" class="btn-holder">
+                            <div id="play-btn" class="btn-floating btn-large btn-play">
+                                <i id="icon-play" class="material-icons">play_arrow</i>
+                            </div>
+                        </div>
                             </div>
 
+                             <!--VIDEO CLOSE BUTTON-->
+                    <div id="close-btn" class="btn-floating icon-close">
+                        <i class="fa fa-close"></i>
+                    </div>
                             <div class="card-content">
 
                                 <!-- NAME & STATUS -->
@@ -167,6 +180,13 @@
                                  
                                 </div>
                             </div>
+
+                             <!--HTML 5 VIDEO-->
+                    <video id="html-video" class="video" poster="poster/poster.jpg" controls="">
+                        <!--SERVER HOSTED VIDEO-->
+                        <source src="videos/b.webm" type="video/webm">
+                        <source src="videos/a.mp4" type="video/mp4">
+                    </video>
                         </div>
                     </div>
                 </div>
