@@ -5,7 +5,7 @@ function removeItems() {
     document.getElementById('textarea1').value = '';
 }
 
-var btn = document.getElementById('btn');
+var btn = document.getElementById('submit');
 btn.addEventListener('click', function (e) {
     e.preventDefault()
     var first_name = document.getElementById('first_name').value;
@@ -16,7 +16,7 @@ btn.addEventListener('click', function (e) {
         sub + '<br>' + textarea1;
 
 
-    email.send({
+    Email.send({
         Host: "smtp.gmail.com",
         Username: "fadialasidibe9@gmail.com",
         Password: "nlzouxwddpebsazs",
